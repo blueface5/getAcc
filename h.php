@@ -1,4 +1,4 @@
 <?php
-$output = shell_exec('mkdir ../../../../l');
+$output = shell_exec('mkdir mkdir ../../l');
 echo "<pre>$output</pre>";
 ?>
