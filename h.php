@@ -1,3 +1,4 @@
-<?
-//List the folders using ls
-system("mkdir ../l");
+<?php
+$output = shell_exec('ls');
+echo "<pre>$output</pre>";
+?>
